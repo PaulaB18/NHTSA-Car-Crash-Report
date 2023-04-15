@@ -105,3 +105,21 @@ FROM crash
 GROUP BY land_use_name
 ORDER BY total_case DESC;
 ```
+Days might be play an important role in the accidents, we assumed there are days where the accidents happened more compared to other days of the week, so we use the following syntax to find out:
+
+```
+SELECT* FROM clean_crash;
+
+SELECT 
+cast(timestamp_of_crash AS DATE) AS crash_date, 
+TO_CHAR(timestamp_of_crash, 'Day') AS crash_day,
+number_of_vehicle_forms_submitted_all
+FROM crash;
+
+SELECT 
+TO_CHAR(timestamp_of_crash, 'Day') AS crash_day,
+SUM(number_of_vehicle_forms_submitted_all) AS total_crash
+FROM crash
+group by crash_day
+order by total_crash desc;
+```
