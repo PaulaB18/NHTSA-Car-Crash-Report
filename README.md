@@ -60,3 +60,20 @@ group by state_name
 order by total_accident desc
 limit 10;
 ```
+Next, we want to find out the hours when the accidents happened most with the below SQL syntax:
+
+```
+SELECT* FROM crash;
+
+CREATE TABLE hourly_crash AS SELECT 
+cast(timestamp_of_crash AS DATE) AS crash_date, 
+sum(number_of_vehicle_forms_submitted_all) AS daily_crash_number,
+sum(number_of_vehicle_forms_submitted_all)/24 AS crash_per_hour
+FROM crash
+GROUP BY crash_date
+ORDER BY crash_date ASC;
+
+select* from hourly_crash;
+
+SELECT AVG(crash_per_hour) AS avg_crash_hr FROM hourly_crash;
+```
