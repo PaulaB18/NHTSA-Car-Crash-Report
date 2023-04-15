@@ -43,3 +43,20 @@ set city_name='NOT REPORTED'
 where city_name='Not Reported';
 
 ```
+Next, start to find the factors that caused the accidents during the year of 2021. There are several factors that we analyze as follow:
+
+Analyze the States with the highest accident rates using the below SQL syntax (for the effectiveness, we only limit to the top 10):
+
+```
+select rank () over (order by percentage DESC), x.state_name, x.total_accident, x.percentage
+from 
+(
+select state_name, count(consecutive_number) total_accident, 
+count(consecutive_number)/sum(count(consecutive_number)) over()*100 percentage
+from clean_crash
+where functional_system_name not in ('Unknown', 'Not Reported', 'Trafficway Not in State Inventory')
+group by state_name
+) x
+order by total_accident desc
+limit 10;
+```
