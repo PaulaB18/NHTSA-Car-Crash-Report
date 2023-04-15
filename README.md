@@ -77,3 +77,19 @@ select* from hourly_crash;
 
 SELECT AVG(crash_per_hour) AS avg_crash_hr FROM hourly_crash;
 ```
+We want to find out the percentage of accidents caused by drunk drivers with the following syntax:
+
+```
+select	case 
+			when number_of_drunk_drivers > 0 
+				then 'Yes' 
+		else 'No' 
+		end drunk_driver,
+		count(1) as jumlah_kecelakaan,
+		round(((count(1)/sum(count(1)) over()) * 100), 1) as prosentase_kecelakaan
+from clean_crash
+where functional_system_name not in ('Unknown', 'Not Reported', 'Trafficway Not in State Inventory')
+group by 1
+
+
+```
