@@ -123,3 +123,17 @@ FROM crash
 group by crash_day
 order by total_crash desc;
 ```
+
+We also want to analyze how the weather and the atmospheric conditions affected the safety on the roads using the following syntax:
+
+```
+SELECT* FROM clean_crash;
+
+SELECT atmospheric_conditions_1_name, COUNT(16) AS Risk_4 FROM crash Group by Atmospheric_conditions_1_name ORDER BY Risk_4 DESC;
+```
+
+```
+SELECT* FROM crash;
+
+SELECT light_condition_name, COUNT(15) AS Risk_3 FROM crash Group by light_condition_name ORDER BY Risk_3 DESC;
+```
