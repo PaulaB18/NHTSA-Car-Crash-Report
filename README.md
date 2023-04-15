@@ -63,7 +63,7 @@ limit 10;
 Next, we want to find out the hours when the accidents happened most with the below SQL syntax:
 
 ```
-SELECT* FROM crash;
+SELECT* FROM clean_crash;
 
 CREATE TABLE hourly_crash AS SELECT 
 cast(timestamp_of_crash AS DATE) AS crash_date, 
@@ -92,4 +92,16 @@ where functional_system_name not in ('Unknown', 'Not Reported', 'Trafficway Not 
 group by 1
 
 
+```
+We assume that the accidents happened more in the city compared to the village, so we used the below syntax to find out:
+
+```
+select* from clean_crash;
+
+select
+land_use_name,
+SUM(number_of_vehicle_forms_submitted_all) AS total_case
+FROM crash
+GROUP BY land_use_name
+ORDER BY total_case DESC;
 ```
