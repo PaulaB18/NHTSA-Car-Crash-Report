@@ -1,2 +1,6 @@
 # NHTSA-Car-Crash-Report
-This report is a group final project about analyzing the car accidents factors on the roads in the US to help NHTSA to improve the safety on the roads and to minimizing the risk of car accidents.
+According to NHTSA, the United States experienced 10 billion crashes in 2021, resulting in 38,000 fatalities involving 55,000 vehicles, with over 9,000 of those fatalities involving drunk drivers.
+
+To enhance road safety, NHTSA conducted an extensive analysis to determine the factors contributing to most accidents, particularly external factors such as weather conditions, light conditions, intersection types, and more.
+
+This report provides an in-depth analysis of each factor, helping NHTSA identify the most effective strategies to improve road safety.
