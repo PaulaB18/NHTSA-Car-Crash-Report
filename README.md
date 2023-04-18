@@ -173,7 +173,7 @@ One possible contributing factor to the occurrence of crashes is the speed of th
 
 To improve the safety, there are a few recommendations that can be implemented in the future:
 
-..*Increase police patrols on the roads, particularly during peak hours, days, and seasons, such as Christmas and New Year, when more people are traveling. This can help deter dangerous driving behavior and enforce traffic laws, reducing the likelihood of accidents.
+* Increase police patrols on the roads, particularly during peak hours, days, and seasons, such as Christmas and New Year, when more people are traveling. This can help deter dangerous driving behavior and enforce traffic laws, reducing the likelihood of accidents.
 
 
 
