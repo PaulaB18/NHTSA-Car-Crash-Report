@@ -167,3 +167,26 @@ However, our data only accounts for accidents caused by drunk drivers, which rep
 #### Speed
 
 One possible contributing factor to the occurrence of crashes is the speed of the vehicles involved. While we don't have direct data on the speed of the crashes, we can infer that speed may have played a role based on the available information. The data indicates that crashes are most common on interstates, where the speed limit allows for driving at up to 70mph, compared to other roads where the speed limit is between 50 to 60mph.  Local roads, where the speed limit is typically around 50mph, ranked second least in crash incidence. This may suggest that lower speed limits on local roads may help reduce the likelihood of crashes. Similarly, residential areas, where the speed limit is even lower, between 20 to 40mph, also experienced relatively fewer crashes, indicating that lower speed limits may be an effective means of reducing crash rates.
+
+
+## RECOMMENDATION
+
+To improve the safety, there are a few recommendations that can be implemented in the future:
+
+..*Increase police patrols on the roads, particularly during peak hours, days, and seasons, such as Christmas and New Year, when more people are traveling. This can help deter dangerous driving behavior and enforce traffic laws, reducing the likelihood of accidents.
+
+
+
+Increase the number of CCTV cameras on the roads to detect and identify drivers who break the law and put others at risk. This can help police arrest those drivers and protect others on the road.
+
+
+
+Increase fines and consider other punishments for those who break the law. This can serve as a deterrent and discourage reckless driving behavior.
+
+
+
+Launch a safety campaign that promotes responsible driving practices, such as avoiding phone use while behind the wheel, not driving when feeling drowsy or unwell, and following traffic rules and regulations.
+
+
+
+Introduce a policy that requires routine medical check-ups verified by police to ensure drivers are both physically and mentally fit to drive. This can help identify any medical conditions that could affect a driver's ability to operate a vehicle safely and reduce the risk of accidents caused by 
