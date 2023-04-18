@@ -149,3 +149,9 @@ SELECT type_of_intersection_name, COUNT(13) AS Risk_2 FROM clean_crash Group by 
 SELECT functional_system_name, COUNT(11) AS Risk_1 FROM clean_crash Group by functional_system_name ORDER BY Risk_1 DESC;
 
 ```
+
+###My Findings
+
+#####Traffic Volume
+
+The volume of traffic on roads is a significant contributing factor to the high incidence of car crashes. Available data indicates that accidents tend to occur more frequently during the daytime, when the number of vehicles on the road is at its peak. This is likely due to the increased activity of people during the day, which amplifies the likelihood of accidents. Additionally, the data shows that Sundays record the highest number of car crashes. Since Sundays are usually considered a holiday, people tend to travel more frequently during the day, leading to heightened road activity. Unlike weekdays when traffic is primarily concentrated around commuting hours, Sundays tend to be bustling with activity throughout the day, making it a prime time for accidents to occur. The accidents also occur more in the states with more population.
