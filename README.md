@@ -175,18 +175,10 @@ To improve the safety, there are a few recommendations that can be implemented i
 
 * Increase police patrols on the roads, particularly during peak hours, days, and seasons, such as Christmas and New Year, when more people are traveling. This can help deter dangerous driving behavior and enforce traffic laws, reducing the likelihood of accidents.
 
+* Increase the number of CCTV cameras on the roads to detect and identify drivers who break the law and put others at risk. This can help police arrest those drivers and protect others on the road.
 
+* Increase fines and consider other punishments for those who break the law. This can serve as a deterrent and discourage reckless driving behavior.
 
-Increase the number of CCTV cameras on the roads to detect and identify drivers who break the law and put others at risk. This can help police arrest those drivers and protect others on the road.
+* Launch a safety campaign that promotes responsible driving practices, such as avoiding phone use while behind the wheel, not driving when feeling drowsy or unwell, and following traffic rules and regulations.
 
-
-
-Increase fines and consider other punishments for those who break the law. This can serve as a deterrent and discourage reckless driving behavior.
-
-
-
-Launch a safety campaign that promotes responsible driving practices, such as avoiding phone use while behind the wheel, not driving when feeling drowsy or unwell, and following traffic rules and regulations.
-
-
-
-Introduce a policy that requires routine medical check-ups verified by police to ensure drivers are both physically and mentally fit to drive. This can help identify any medical conditions that could affect a driver's ability to operate a vehicle safely and reduce the risk of accidents caused by 
+* Introduce a policy that requires routine medical check-ups verified by police to ensure drivers are both physically and mentally fit to drive. This can help identify any medical conditions that could affect a driver's ability to operate a vehicle safely and reduce the risk of accidents caused by 
