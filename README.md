@@ -101,7 +101,7 @@ select* from clean_crash;
 select
 land_use_name,
 SUM(number_of_vehicle_forms_submitted_all) AS total_case
-FROM crash
+FROM clean_crash
 GROUP BY land_use_name
 ORDER BY total_case DESC;
 ```
@@ -114,12 +114,12 @@ SELECT
 cast(timestamp_of_crash AS DATE) AS crash_date, 
 TO_CHAR(timestamp_of_crash, 'Day') AS crash_day,
 number_of_vehicle_forms_submitted_all
-FROM crash;
+FROM clean_crash;
 
 SELECT 
 TO_CHAR(timestamp_of_crash, 'Day') AS crash_day,
 SUM(number_of_vehicle_forms_submitted_all) AS total_crash
-FROM crash
+FROM clean_crash
 group by crash_day
 order by total_crash desc;
 ```
@@ -129,18 +129,23 @@ We also want to analyze how the weather and the atmospheric conditions affected 
 ```
 SELECT* FROM clean_crash;
 
-SELECT atmospheric_conditions_1_name, COUNT(16) AS Risk_4 FROM crash Group by Atmospheric_conditions_1_name ORDER BY Risk_4 DESC;
+SELECT atmospheric_conditions_1_name, COUNT(16) AS Risk_4 FROM clean_crash Group by Atmospheric_conditions_1_name ORDER BY Risk_4 DESC;
 ```
 
 ```
 SELECT* FROM clean_crash;
 
-SELECT light_condition_name, COUNT(15) AS Risk_3 FROM crash Group by light_condition_name ORDER BY Risk_3 DESC;
+SELECT light_condition_name, COUNT(15) AS Risk_3 FROM clean_crash Group by light_condition_name ORDER BY Risk_3 DESC;
 ```
-Next, we hypothesize that the type of intersection may play a significant role in accidents. Therefore, we employ the following syntax to retrieve data on which types of intersections the accidents mostly occurred:
+Next, we hypothesize that the type of intersection and functional system roads may play a significant role in accidents. Therefore, we employ the following syntax to retrieve data on which types of intersections the accidents mostly occurred:
 
 ```
 SELECT* FROM clean_crash;
 
-SELECT type_of_intersection_name, COUNT(13) AS Risk_2 FROM crash Group by type_of_intersection_name ORDER BY Risk_2 DESC;
+SELECT type_of_intersection_name, COUNT(13) AS Risk_2 FROM clean_crash Group by type_of_intersection_name ORDER BY Risk_2 DESC;
+```
+
+```
+SELECT functional_system_name, COUNT(11) AS Risk_1 FROM clean_crash Group by functional_system_name ORDER BY Risk_1 DESC;
+
 ```
