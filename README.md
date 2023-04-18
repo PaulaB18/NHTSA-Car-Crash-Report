@@ -133,7 +133,14 @@ SELECT atmospheric_conditions_1_name, COUNT(16) AS Risk_4 FROM crash Group by At
 ```
 
 ```
-SELECT* FROM crash;
+SELECT* FROM clean_crash;
 
 SELECT light_condition_name, COUNT(15) AS Risk_3 FROM crash Group by light_condition_name ORDER BY Risk_3 DESC;
+```
+Next, we hypothesize that the type of intersection may play a significant role in accidents. Therefore, we employ the following syntax to retrieve data on which types of intersections the accidents mostly occurred:
+
+```
+SELECT* FROM clean_crash;
+
+SELECT type_of_intersection_name, COUNT(13) AS Risk_2 FROM crash Group by type_of_intersection_name ORDER BY Risk_2 DESC;
 ```
