@@ -150,7 +150,7 @@ SELECT functional_system_name, COUNT(11) AS Risk_1 FROM clean_crash Group by fun
 
 ```
 
-## My Findings
+## FINDINGS
 
 #### Traffic Volume
 
@@ -182,3 +182,11 @@ To improve the safety, there are a few recommendations that can be implemented i
 * Launch a safety campaign that promotes responsible driving practices, such as avoiding phone use while behind the wheel, not driving when feeling drowsy or unwell, and following traffic rules and regulations.
 
 * Introduce a policy that requires routine medical check-ups verified by police to ensure drivers are both physically and mentally fit to drive. This can help identify any medical conditions that could affect a driver's ability to operate a vehicle safely and reduce the risk of accidents caused by 
+
+
+## DATA VISUALIZATION
+
+To enhance our comprehension of the data, I generated a visualization utilizing Power BI
+
+[![NHTSA Report Dashboard](https://user-images.githubusercontent.com/22789086/232231920-d9718c9c-fc40-44b8-a8fa-2afde885ebce.jpg)](https://app.powerbi.com/view?r=eyJrIjoiODYwMjllMjQtNjkzYS00YmMzLThmYjYtMTQwMDA4M2E5NGNmIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+
