@@ -152,6 +152,14 @@ SELECT functional_system_name, COUNT(11) AS Risk_1 FROM clean_crash Group by fun
 
 ## My Findings
 
-##### Traffic Volume
+#### Traffic Volume
 
-The volume of traffic on roads is a significant contributing factor to the high incidence of car crashes. Available data indicates that accidents tend to occur more frequently during the daytime, when the number of vehicles on the road is at its peak. This is likely due to the increased activity of people during the day, which amplifies the likelihood of accidents. Additionally, the data shows that Sundays record the highest number of car crashes. Since Sundays are usually considered a holiday, people tend to travel more frequently during the day, leading to heightened road activity. Unlike weekdays when traffic is primarily concentrated around commuting hours, Sundays tend to be bustling with activity throughout the day, making it a prime time for accidents to occur. The accidents also occur more in the states with more population.
+The volume of traffic on roads is a significant contributing factor to the high incidence of car crashes. Available data indicates that accidents tend to occur more frequently during the daytime, when the number of vehicles on the road is at its peak. This is likely due to the increased activity of people during the day, which amplifies the likelihood of accidents. Additionally, the data shows that weekend record more crashes, especially Sundays record the highest number of car crashes. Since Sundays are usually considered a holiday, people tend to travel more frequently during the day, leading to heightened road activity. Unlike weekdays when traffic is primarily concentrated around commuting hours, Sundays tend to be bustling with activity throughout the day, making it a prime time for accidents to occur. The accidents also occur more in the states with more population.
+
+#### Human Error
+
+Based on our analysis of the data, we believe that human error is the second leading cause of accidents. This conclusion is supported by several key findings. Firstly, the majority of accidents occur during daylight hours and when the sky is clear that is typically considered to be safe driving conditions. This suggests that drivers may be less vigilant when they perceive conditions to be less risky. Conversely, accidents are less frequent during dusk, rain, and freezing conditions, as drivers tend to be more cautious during these times.
+
+Additionally, our analysis indicates that traffic volume is a contributing factor to accidents. When there are more vehicles on the road, the risk of human error causing an accident increases. Even a single instance of human error can have a significant impact on road safety, and the risk of accidents escalates when multiple drivers make errors simultaneously.
+
+However, our data only accounts for accidents caused by drunk drivers, which represents just one type of human error. It's important to note that other factors, such as distracted or drowsy driving, phone behind the wheel, being sick while driving may also contribute to accidents. Future research that accounts for these factors may provide a more comprehensive understanding of the role of human error in accidents.
